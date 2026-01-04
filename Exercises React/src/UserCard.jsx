@@ -1,11 +1,11 @@
 
 
-const UserCard = () =>{
+const UserCard = ({name,email}) =>{
     return(
         // jsx
         <>
-        <h2>John Deo</h2>
-        <p>John.doe@gmail.com</p>
+        <h2>Your name is :{name} </h2>
+        <p>Your email is :{email} </p>
         </>
     )
 }
