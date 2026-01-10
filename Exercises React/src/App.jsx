@@ -1,5 +1,6 @@
 import UserCard from "./UserCard"
 import Blog from './Blog'
+import ToggleButton from "./ToggleButton"
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
 
     {/* Excises 2 Blog */}
     <Blog/>
+
+
+    {/* Exercise 3 Toggle */}
+    <ToggleButton/>
     </>
 
 
