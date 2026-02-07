@@ -2,6 +2,7 @@ import UserCard from "./UserCard"
 import Blog from './Blog'
 import ToggleButton from "./ToggleButton"
 import ShoppingCart from "./ShoppingCart"
+import UseEffect from "./UseEffect"
 
 
 function App() {
@@ -50,6 +51,9 @@ function App() {
 
     {/* Exercise 5 */}
     <ShoppingCart/>
+
+    {/* Exercise */}
+      <UseEffect/>
     </>
 
 
