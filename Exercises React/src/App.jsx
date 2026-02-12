@@ -3,6 +3,7 @@ import Blog from './Blog'
 import ToggleButton from "./ToggleButton"
 import ShoppingCart from "./ShoppingCart"
 import UseEffect from "./UseEffect"
+import TrackingMouse from "./TrackingMouse"
 
 
 function App() {
@@ -54,6 +55,9 @@ function App() {
 
     {/* Exercise */}
       <UseEffect/>
+
+      {/* Exercise 7 */}
+        <TrackingMouse/>
     </>
 
 
