@@ -5,6 +5,7 @@ import ShoppingCart from "./ShoppingCart";
 import UseEffect from "./UseEffect";
 import TrackingMouse from "./TrackingMouse";
 import CountDown from "./Countdown";
+import GitHubUser from "./GitHub";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
 
       {/*  Exercise 8*/}
       <CountDown/>
+
+      {/* Exercise 9 */}
+      <GitHubUser/>
     </>
   );
 }
