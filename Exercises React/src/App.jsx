@@ -6,8 +6,16 @@ import UseEffect from "./UseEffect";
 import TrackingMouse from "./TrackingMouse";
 import CountDown from "./Countdown";
 import GitHubUser from "./GitHub";
+import UserList from "./UserList";
 
 function App() {
+
+   const users = [
+    {id:1, name:'mc hamouda', email:'hamouda@gmail.com'},
+    {id:2, name:'mahdi', email:'mahdi@gmail.com'},
+    {id:3, name:'marwan', email:'marwan@gmail.com'},
+    {id:4, name:'omar', email:'omar@gmail.com'}
+  ]
   return (
     <>
       {/* Exercise 1 UserCard */}
@@ -42,6 +50,10 @@ function App() {
 
       {/* Exercise 9 */}
       <GitHubUser/>
+
+      {/* Exercise 10 */}
+      <UserList users={users}/>
+      
     </>
   );
 }
