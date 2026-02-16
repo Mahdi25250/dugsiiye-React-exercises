@@ -8,6 +8,7 @@ import CountDown from "./Countdown";
 import GitHubUser from "./GitHub";
 import UserList from "./UserList";
 import LoginForm from "./LoginForm";
+import Counter from "./Counter";
 
 function App() {
 
@@ -56,7 +57,10 @@ function App() {
       <UserList users={users}/>
 
       {/* Exercise #11 */}
-       <LoginForm/>
+       <LoginForm/> 
+
+      {/* Exercise #12 */}
+       <Counter/>
       
     </>
   );
