@@ -9,6 +9,7 @@ import GitHubUser from "./GitHub";
 import UserList from "./UserList";
 import LoginForm from "./LoginForm";
 import Counter from "./Counter";
+import DoubleCounter from "./DoubleCounter";
 
 function App() {
 
@@ -61,6 +62,9 @@ function App() {
 
       {/* Exercise #12 */}
        <Counter/>
+
+      {/* Exercise #13 */}
+       <DoubleCounter/>
       
     </>
   );
