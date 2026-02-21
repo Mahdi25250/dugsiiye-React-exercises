@@ -10,6 +10,8 @@ import UserList from "./UserList";
 import LoginForm from "./LoginForm";
 import Counter from "./Counter";
 import DoubleCounter from "./DoubleCounter";
+import FormReducer from "./FormStep";
+
 
 function App() {
 
@@ -65,6 +67,9 @@ function App() {
 
       {/* Exercise #13 */}
        <DoubleCounter/>
+
+      {/* Exercise #14 */}
+      <FormReducer/>
       
     </>
   );
